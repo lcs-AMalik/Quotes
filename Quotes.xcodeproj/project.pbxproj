@@ -12,6 +12,7 @@
 		90A08B8D27C5301600A0C59D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A08B8C27C5301600A0C59D /* Assets.xcassets */; };
 		90A08B9027C5301600A0C59D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A08B8F27C5301600A0C59D /* Preview Assets.xcassets */; };
 		90A08B9927C5307800A0C59D /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A08B9827C5307700A0C59D /* Quote.swift */; };
+		90A08B9F27C971E600A0C59D /* SharedFunctionsAndConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A08B9E27C971E500A0C59D /* SharedFunctionsAndConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		90A08B8C27C5301600A0C59D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90A08B8F27C5301600A0C59D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		90A08B9827C5307700A0C59D /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		90A08B9E27C971E500A0C59D /* SharedFunctionsAndConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFunctionsAndConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				90A08B8827C5301000A0C59D /* QuotesApp.swift */,
+				90A08B9D27C971C600A0C59D /* Shared */,
 				90A08B9727C5304900A0C59D /* Views */,
 				90A08B9627C5303B00A0C59D /* Model */,
 				90A08B8C27C5301600A0C59D /* Assets.xcassets */,
@@ -84,6 +87,14 @@
 				90A08B8A27C5301000A0C59D /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		90A08B9D27C971C600A0C59D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				90A08B9E27C971E500A0C59D /* SharedFunctionsAndConstants.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A08B9F27C971E600A0C59D /* SharedFunctionsAndConstants.swift in Sources */,
 				90A08B8B27C5301000A0C59D /* ContentView.swift in Sources */,
 				90A08B9927C5307800A0C59D /* Quote.swift in Sources */,
 				90A08B8927C5301000A0C59D /* QuotesApp.swift in Sources */,
