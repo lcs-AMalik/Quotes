@@ -15,7 +15,7 @@ import Foundation
 // "Hashable" protocol conformance - just means that swift
 // will be able to quickly determine when one instance of this
 // data type differs from another.
-struct Quote: Decodable, Hashable {
+struct Quote: Decodable, Hashable, Encodable {
     let quoteText: String
     let quoteAuthor: String
     let senderName: String
